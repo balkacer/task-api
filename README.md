@@ -1,5 +1,5 @@
 ## Task API
-**An API maked with Typescript, Node.js and Express,js**
+An **API** maked with Typescript, Node.js and Express,js
 ### Seting up
 
 **To set it up follow these steps.**
