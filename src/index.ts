@@ -1,13 +1,12 @@
 import express from 'express';
-import bodyParser from 'body-parser';
 
 const app = express();
 
 import fs from 'fs';
 import { AddressInfo } from 'net';
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.json({limit: '20mb'}));
+app.use(express.urlencoded({ extended: false, limit: '20mb' }));
 
 import routes from './routes/routes';
 routes(app, fs);
