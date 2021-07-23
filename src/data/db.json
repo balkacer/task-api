@@ -1,0 +1,16 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "date": "2021-07-21",
+            "title": "Cena de mañana",
+            "body": "Comprar todo lo necesario para preparar la cena de mañana."
+        },
+        {
+            "id": 2,
+            "date": "2021-07-30",
+            "title": "Día del padre",
+            "body": "Llamar a papi y felicitarlo por el día del padre."
+        }
+    ]
+}
